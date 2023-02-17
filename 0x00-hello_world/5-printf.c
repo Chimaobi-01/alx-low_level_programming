@@ -1,13 +1,11 @@
 #include <stdio.h>
-/*
- * main fubction
- *
- * code
- *
- * return 0
+
+/**
+ * main - print a text
+ * Return: 0
  */
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
-	return 0;
+	return (0);
 }

@@ -1,10 +1,9 @@
 #include <stdio.h>
+
 /**
- * main function
+ * main - print the string
  *
- * description - prints size of various data types
- *
- * return 0
+ * Return: 0
  */
 int main(void)
 {
