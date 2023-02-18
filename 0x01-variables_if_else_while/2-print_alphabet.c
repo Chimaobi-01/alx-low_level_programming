@@ -6,11 +6,13 @@
 int main(void)
 {
 	char a = 'a';
+	int i = 0;
 
-	for (int i = 0; i < 26; i++)
+	while (i < 26)
 	{
 		putchar(a);
 		a++;
+		i++;
 	}
 	putchar('\n');
 }
