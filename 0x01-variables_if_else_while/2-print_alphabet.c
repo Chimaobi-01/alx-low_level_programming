@@ -5,14 +5,14 @@
  */
 int main(void)
 {
-	char a = 'a';
-	int i = 0;
+	char alpha = 'a';
+	int i, len = 26;
 
-	while (i < 26)
+	for (i = 0;i < len;i++)
 	{
-		putchar(a);
-		a++;
-		i++;
+		putchar(alpha);
+		alpha++;
 	}
 	putchar('\n');
+	return (0);
 }
