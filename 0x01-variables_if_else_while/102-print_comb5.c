@@ -15,15 +15,18 @@ int main(void)
 			{
 				for (k = 0; k < 10; k++)
 				{
-					if ((k + i) > (b + a))
+					if (((k + i) > (b + a)))
 					{
 						putchar('0' + a);
 						putchar('0' + b);
 						putchar(' ');
 						putchar('0' + i);
 						putchar('0' + k);
-						putchar(',');
-						putchar(' ');
+						if (!(a == 9 && b == 8 && i == 9 && k == 9))
+						{
+							putchar(',');
+							putchar(' ');
+						}
 					}
 				}
 			}
