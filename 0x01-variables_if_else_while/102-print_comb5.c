@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int i, k, a, b, n = 0;
+	int i, k, a, b;
 
 	for (a = 0; a < 10; a++)
 	{
@@ -22,7 +22,8 @@ int main(void)
 						putchar(' ');
 						putchar('0' + i);
 						putchar('0' + k);
-	(!(a == 9 && b == 8 && i == 9 && k == 9)) ? putchar(','), putchar(' ') : n++;
+						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
